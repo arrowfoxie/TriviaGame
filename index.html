@@ -1,14 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Trivia Game</title>
 </head>
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+
 
 
 <body>
-    
+
+    <header>
+
+        <div>
+            <img class="topImg" src="assets/images/Screen Shot 2018-07-01 at 7.59.10 PM.png">
+
+        </div>
+        <h1 class="headerTxt"> Trivia Game! </h1>
+
+    </header>
+
+    <section class="hide">
+        <div id="showTime"></div>
+        <p >
+            Do you know?
+        </p>
+        <br>
+        
+        <p class="question"> Is this the first question? <br>
+            <label> 
+                <input data-answer="correct" type="radio" name="q1"> Yes
+            </label>
+            <label> 
+                <input type="radio" name="q1"> No
+            </label>
+            <label> 
+                <input type="radio" name="q1"> Maybe
+            </label>
+            <label> 
+                <input type="radio" name="q1"> So
+            </label>
+        </p>
+
+        
+
+        <p class="question"> Is this the first question? <br>
+            <label> 
+                <input type="radio" name="q2"> Yes
+            </label>
+            <label> 
+                <input data-answer="correct" type="radio" name="q2"> No
+            </label>
+            <label> 
+                <input type="radio" name="q2"> Maybe
+            </label>
+            <label> 
+                <input type="radio" name="q2"> So
+            </label>
+        </p>
+
+        <p class="question"> Is this the first question? <br>
+            <label> 
+                <input type="radio" name="q3"> Yes
+            </label>
+            <label> 
+                <input type="radio" name="q3"> No
+            </label>
+            <label> 
+                <input data-answer="correct" type="radio" name="q3"> Maybe
+            </label>
+            <label> 
+                <input type="radio" name="q3"> So
+            </label>
+        </p>
+
+        <p class="question"> Is this the first question? <br>
+            <label> 
+                <input type="radio" name="q4"> Yes
+            </label>
+            <label> 
+                <input type="radio" name="q4"> No
+            </label>
+            <label> 
+                <input data-answer="correct" type="radio" name="q4"> Maybe
+            </label>
+            <label> 
+                <input type="radio" name="q4"> So
+            </label>
+        </p>
+
+        <p class="question"> Is this the first question? <br>
+            <label> 
+                <input type="radio" name="q5"> Yes
+            </label>
+            <label> 
+                <input type="radio" name="q5"> No
+            </label>
+            <label> 
+                <input type="radio" name="q5"> Maybe
+            </label>
+            <label> 
+                <input data-answer="correct" type="radio" name="q5"> So
+            </label>
+        </p>
+
+        <p class="question"> Is this the first question? <br>
+            <label> 
+                <input data-answer="correct" type="radio" name="q6"> Yes
+            </label>
+            <label> 
+                <input type="radio" name="q6"> No
+            </label>
+            <label> 
+                <input type="radio" name="q6"> Maybe
+            </label>
+            <label> 
+                <input type="radio" name="q6"> So
+            </label>
+        </p>
+
+        <p class="question"> Is this the first question? <br>
+            <label> 
+                <input type="radio" name="q7"> Yes
+            </label>
+            <label> 
+                <input data-answer="correct" type="radio" name="q7"> No
+            </label>
+            <label> 
+                <input type="radio" name="q7"> Maybe
+            </label>
+            <label> 
+                <input type="radio" name="q7"> So
+            </label>
+        </p>
+
+        <p class="question"> Is this the first question? <br>
+            <label> 
+                <input type="radio" name="q8"> Yes
+            </label>
+            <label> 
+                <input type="radio" name="q8"> No
+            </label>
+            <label> 
+                <input data-answer="correct" type="radio" name="q8"> Maybe
+            </label>
+            <label> 
+                <input type="radio" name="q8"> So
+            </label>
+        </p>
+        
+
+        <div id="done"><button> Done! </button></div>
+
+  
+    </section>
+
+    <section id="results" style="display:none">
+
+        <div><h2>Correct: <span id="right"></span></h2></div>
+        <div><h2>Incorrect: <span id="wrong"></span></h2></div>
+
+    </section>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="/assets/javascript/app.js"></script>
 </body>
+
 </html>
